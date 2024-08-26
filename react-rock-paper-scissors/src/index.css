@@ -1,0 +1,79 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;     */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.players{
+    display: flex;
+    flex-direction: row;
+    border:solid black 2px;
+    width: 50%;
+    height:30vh
+
+}
+
+.players div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:solid black 1px;
+    width: 100%;
+
+
+}
+
+.player img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.player p{
+    border:solid black 1px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.player_options{
+    display: flex;
+    width: 50%;
+}
+
+.player_options div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 33%;
+    border: black solid 1px;
+    margin: 20px 0 0 0;
+}
+
+.item_img{
+    height:100px;
+    width:100px;
+}
+
+.winner{
+    margin: 20px 0 0 0;
+    height: 50px;
+    width: 50%;
+    border: solid black 2px;
+    text-align: center;
+    padding:12px 0 0 0 ;
+}
