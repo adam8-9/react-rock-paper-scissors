@@ -20,10 +20,10 @@ const PlayerOptions = ({setPlayer1,setPlayer2}) => {
 
   
     function optionClicked(e){
-          let option_id = e.target.parentElement.id
-          
+          let option_id = e.target.parentElement.id || e.target.id
+
           setPlayer1(option_id)
-          console.log(option_id)
+          console.log(e)
 
           randomChoice()
     }

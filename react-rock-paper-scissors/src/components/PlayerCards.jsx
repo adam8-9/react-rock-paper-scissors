@@ -8,7 +8,7 @@ const PlayerCards = ({player1_img,player2_img}) => {
 
 
   return (
-    <div className="players">
+    <div className="flex w-1/2 mt-5 border-solid">
 
     <div className='player' >
     <h2>Player 1</h2>
