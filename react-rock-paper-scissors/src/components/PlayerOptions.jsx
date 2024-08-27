@@ -33,21 +33,21 @@ const PlayerOptions = ({setPlayer1,setPlayer2}) => {
 
 
   return (
-    <div className='player_options'>
+    <div className='flex justify-center items-center mt-5 w-full '>
           
-      <div id="rock" className="option" onClick={optionClicked}>
-      <h3 className="title">rock</h3 >
-      <img className='item_img' src={`src\\assets\\rock.png`} alt="" />
+      <div id="rock" className="text-center m-3 border-2 border-black " onClick={optionClicked}>
+      <h3 className="title pb-2 border-b-2 border-black">rock</h3 >
+      <img className='h-32 w-32 p-2' src={`src\\assets\\rock.png`} alt="" />
       </div>
 
-      <div id="paper" className="option" onClick={optionClicked} >
-      <h3 className="title">paper</h3>
-      <img className='item_img' src={`src\\assets\\paper.png`} alt="" />
+      <div id="paper" className="text-center m-3 border-2 border-black " onClick={optionClicked} >
+      <h3 className="title pb-2 border-b-2 border-black">paper</h3>
+      <img className='h-32 w-32 p-2' src={`src\\assets\\paper.png`} alt="" />
       </div>
 
-      <div id="scissors" className="option" onClick={optionClicked} >
-      <h3 className="title">scissors</h3>
-      <img className='item_img' src={`src\\assets\\scissors.png`} alt="" />
+      <div id="scissors" className="text-center m-3 border-2 border-black " onClick={optionClicked} >
+      <h3 className="title pb-2 border-b-2 border-black">scissors</h3>
+      <img className='h-32 w-32 p-2' src={`src\\assets\\scissors.png`} alt="" />
       </div>
          
     </div>

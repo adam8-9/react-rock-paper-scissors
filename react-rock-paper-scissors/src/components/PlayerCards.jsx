@@ -8,18 +8,18 @@ const PlayerCards = ({player1_img,player2_img}) => {
 
 
   return (
-    <div className="flex w-1/2 mt-5 border-solid">
+    <div className="flex justify-center w-full mt-5 ">
 
-    <div className='player' >
-    <h2>Player 1</h2>
-    <img className='player_image' src={`src\\assets\\${player1_img}.png`} alt="" />
-    <p className={`player1_score`}>Score:</p>
+    <div className='border-2 border-solid border-black mr-2.5' >
+    <h2 className='text-center pt-2'>Player 1</h2>
+    <img className='h-52 w-52 p-5' src={`src\\assets\\${player1_img}.png`} alt="" />
+    <p className="text-center pb-2">Score:</p>
     </div>
 
-    <div className='player' >
-    <h2>Player 2</h2>
-    <img className='player_image' src={`src\\assets\\${player2_img}.png`} alt="" />
-    <p className={`player2_score`}>Score:</p>
+    <div className='border-2 border-solid border-black ml-2.5 ' >
+    <h2 className='text-center pt-2'>Player 2</h2>
+    <img className='h-52 w-52 p-5' src={`src\\assets\\${player2_img}.png`} alt="" />
+    <p className="text-center pb-2">Score:</p>
     </div>
 
     </div>

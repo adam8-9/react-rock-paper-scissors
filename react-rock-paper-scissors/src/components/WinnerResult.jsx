@@ -76,8 +76,8 @@ const WinnerResult = ({player1,player2}) => {
 
 
   return (
-    <p className='winner'>
-      WINNER:{`${winner}`}
+    <p className='mt-5 text-center text-2xl'>
+      WINNER: {`${winner}`}
       </p>
   )
 }

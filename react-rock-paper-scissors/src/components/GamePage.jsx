@@ -8,8 +8,8 @@ const GamePage = ({children}) => {
 // console.log(check)
 
   return (
-    <div className='flex items-center flex-col justify-center'>
-        <h1 className='text-center text-4xl'>ROCK-PAPER-SCISSORS</h1>
+    <div className='flex items-center flex-col justify-center w-full'>
+        <h1 className='text-center text-4xl pt-4'>ROCK-PAPER-SCISSORS</h1>
       {children}
       </div>
   )
